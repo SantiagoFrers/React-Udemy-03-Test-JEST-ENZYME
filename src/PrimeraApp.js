@@ -1,12 +1,9 @@
-import React from 'react'
+//import React from 'react'
 import PropTypes from 'prop-types';
 
 //const PrimeraApp = ( {saludo = 'Valor por defecto', adios} ) => {
 //Tambien podemos enviar valores por defecto usando defaultProps, ver al final
-const PrimeraApp = ( {
-    saludo,
-    adios
-    } ) => {
+const PrimeraApp = ({ saludo, adios }) => {
 
 
         /* const objeto = {
@@ -19,7 +16,7 @@ const PrimeraApp = ( {
         //Para imprimir un objeto hay que JSON.stringify(objeto)
 
     return <>
-        <h3>{ saludo } </h3>
+        <h3>{ saludo }</h3>
         {/* <p> { JSON.stringify( objeto, null, 3) }</p> */}
         <p> { adios } </p>
     </>
